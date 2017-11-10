@@ -12,3 +12,5 @@ This is a mult-player(2~4) online game. Each turn one player will get a word, th
 
 Technology:
 Node.js or PHP(not decided yet),JavaScript,mySQL Database,HTML5,jquery,Angular.js
+
+Test onnly
