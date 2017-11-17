@@ -1,0 +1,27 @@
+CS252 Lab6 
+U Draw I Guess Backlog
+
+---Requirement---
+Non-functional:
+1.The app must handle up to 30 users at a time, up to 5 users in one game.
+2.The app must be able to run on browser
+
+Functional:
+1.As a user, I want to type in my name when entering the game lobby
+2.As a user, I want to see the game lobby after I login
+3.As a user, I want to click on empty table to create a new game room
+4.As a user, I want to click on a created room to join the game
+5.As a user, I want to leave the room when I haven’t click the “Ready” yet
+6.As a user, I want to click on the “Ready” button to tell other players I’m ready
+7.As a user, I want to cancel the “Ready” status when I’m ready
+8.As a user, I want to start the game when everyone in room is ready (at least 2 players)
+9.As a user, I want to see the word I need to draw if this is my turn to draw
+10.As a user, I want to see the picture being drawn simultaneously. 
+11.As a user, I want to set a timer of 60 seconds such that the users have 60s to draw and to    guess. 
+12.As a user, I want to type in the word I guess while other is drawing the picture
+13.As a user, I want everyone to see the word I type in chat. 
+14. If the correct answer appears in chat, the round ends and the winner is the user who gave the correct answer. Points will be awarded to the winner(points undecided). 
+15. After all the users draw once, they’ll evaluate the drawings by voting. The one with the most votes will be awarded points.
+16. The game ends after each user draws 3 times.
+17. The winner will be the one with most points.
+18. After the game ends, user will return to the game room, they can choose to get ready again or leave.
