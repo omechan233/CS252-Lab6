@@ -50,6 +50,13 @@ btnIn.addEventListener('click',function () {
 
 window.onload = function () {
     Ctl.init();
+    function resize() {
+        canvas.width = canvas.parentElement.clientWidth;
+        canvas.paths = canvas.pts = [];
+        socket.emit('repaint');
+    }
+    this.addEventListener('resize',resize);
+    resize();
     input.onkeydown = function (e) {
         if(e.keyCode === 13 && this.value!=''){
             if(canvas.isMe){

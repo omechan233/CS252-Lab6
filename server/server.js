@@ -102,7 +102,7 @@ io.sockets.on('connection',function (socket) {
             var json = JSON.stringify(getSocket(this));
             this.broadcast.emit('new in user',json);
             this.emit('in',json);
-
+			//Set timer; Get word from db; Handle Timeup.
             setTimeout(function () {
                 if(Game.player || !Game.inQueue.length) return;
                 Game.run = arguments.callee
@@ -189,7 +189,7 @@ io.sockets.on('connection',function (socket) {
             var i =Game.inQueue.indexOf(this);
             if(i!=-1)
                 Game.inQueue.splice(i,1);
-            this.broadcast.emit('server msg','goodbye, '+this.name);
+            this.broadcast.emit('server msg','good bye, '+this.name);
             this.broadcast.emit('out user',this.id.substring(2));
             this.broadcast.emit('tops',JSON.stringify(tops));
         });
@@ -229,7 +229,7 @@ io.sockets.on('connection',function (socket) {
 // Example:    
 // (new Date()).Format("yyyy-MM-dd hh:mm:ss.S") ==> 2006-07-02 08:09:04.423   
 // (new Date()).Format("yyyy-M-d h:m:s.S")      ==> 2006-7-2 8:9:4.18   
-Date.prototype.Format = function (fmt) { //author: meizz   
+Date.prototype.format = function (fmt) { //author: meizz   
     var o = {
         "M+": this.getMonth() + 1,                 //Month   
         "d+": this.getDate(),                    //Day   

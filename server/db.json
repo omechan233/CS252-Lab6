@@ -1,0 +1,66 @@
+[
+    {
+        "word": "Watermelon",
+        "tip": "Fruit"
+    },
+    {
+        "word": "Apple",
+        "tip": "Fruit"
+    },
+    {
+        "word": "Banana",
+        "tip": "Fruit"
+    },
+    {
+        "word": "Cat",
+        "tip": "Pet"
+    },
+    {
+        "word": "Giraffe",
+        "tip": "Animal"
+    },
+    {
+        "word": "Dog",
+        "tip": "Pet"
+    },
+    {
+        "word": "Monkey",
+        "tip": "Animal"
+    },
+    {
+        "word": "Plane",
+        "tip": "Fly"
+    },
+    {
+        "word": "Arsenal",
+        "tip": "Best Football Club"
+    },
+    {
+        "word": "Eminem",
+        "tip": "Rap God"
+    },
+    {
+        "word": "Laptop",
+        "tip": "Tech"
+    },
+    {
+        "word": "Google",
+        "tip": "Tech Company"
+    },
+    {
+        "word": "Flower",
+        "tip": "Nature"
+    },
+    {
+        "word": "Fish",
+        "tip": "Swim"
+    },
+    {
+        "word": "Sword",
+        "tip": "Weapen"
+    },
+    {
+        "word": "Cookie",
+        "tip": "Desert"
+    }
+]
