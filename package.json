@@ -1,0 +1,25 @@
+{
+  "name": "cs252-lab6",
+  "version": "1.0.0",
+  "description": "You draw I guess game using node.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DHTML \u001b[D U\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b draw I guess game",
+  "main": "\u001b[D\u001b",
+  "scripts": {
+    "test": "npm install, node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omechan233/CS252-Lab6.git"
+  },
+  "keywords": [
+    "node.js",
+    "socket.io",
+    "html",
+    "css"
+  ],
+  "author": "Yicheng Wang  YiDou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omechan233/CS252-Lab6/issues"
+  },
+  "homepage": "https://github.com/omechan233/CS252-Lab6#readme"
+}
